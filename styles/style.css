@@ -5,7 +5,7 @@
 }
 
 
-
+/* nav bar start */
 .container{
     max-width: 1200px;
     margin:auto;
@@ -25,6 +25,7 @@ ul{
     color:gray;
     
 }
+/* nav bar end */
 
 .common-btn{
     background-color: blue;
@@ -35,6 +36,7 @@ ul{
     cursor: pointer;
     color:white;
 }
+/* banner section start */
 .banner{
     position: relative;
 }
@@ -62,3 +64,27 @@ ul{
     position:absolute;
     
 }
+/* .overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity:0.5;
+} */
+ /* banner section end */
+
+ /* meet section start */
+ .meet{
+    margin-top: 550px;
+    text-align: center;
+    
+ }
+ .gallery{
+    margin-top: 20px;
+    display:grid;
+    gap:12px;
+    grid-template-columns: repeat(2, 1fr);
+    
+ }
