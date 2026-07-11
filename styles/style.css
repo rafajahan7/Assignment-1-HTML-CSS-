@@ -110,7 +110,7 @@ nav{
 .secure{
     margin-top: 140px;
     text-align: center;
-    margin-bottom: 20px;
+    
     
     
  }
@@ -151,7 +151,7 @@ nav{
 .bullet{
     color: blue;
 }
-.std-btn{
+.std-btn {
     background-color: white;
     padding: 10px 20px ;
     border-radius: 10px;
@@ -163,5 +163,29 @@ nav{
     display: block;
     margin: 20px auto 0;
     margin-bottom: 20px;
-    
+    width: 270px;
+}
+.pro{
+    background-color:#0D1B2A;
+    color:gray;
+}
+.pro-btn{
+    width: 270px;
+    padding: 10px 20px;
+    margin: 20px auto 0;
+    display: block;
+}
+.contact-btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: white;
+    color:black;
+    padding: 10px 20px ;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+    margin-bottom: 20px;
+    width: 270px;
+
 }
