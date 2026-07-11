@@ -82,9 +82,25 @@ ul{
     
  }
  .gallery{
+    width:1200px;
     margin-top: 20px;
     display:grid;
     gap:12px;
     grid-template-columns: repeat(2, 1fr);
-    
+
  }
+ .card{
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+ }
+ .card img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card h3, p{
+    margin-left:20px;
+    padding-left: 20px;
+    padding:5px;
+    margin-bottom: 20px;
+}
