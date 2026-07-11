@@ -17,7 +17,7 @@ nav{
     padding: 15px;
     background-color: white;
 }
-ul{
+.nav-ul{
     display:flex;
     list-style:none;
     gap: 30px;
@@ -98,9 +98,70 @@ ul{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.card h3, p{
+.card  h3, p{
     margin-left:20px;
     padding-left: 20px;
     padding:5px;
     margin-bottom: 20px;
+}
+/* meet section end */
+
+/* secure section start */
+.secure{
+    margin-top: 140px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+ }
+  .gallery-secure{
+    width:1000px;
+    margin-top: 20px;
+    display:grid;
+    gap:12px;
+    grid-template-columns: repeat(3, 1fr);
+
+ }
+
+ .price-card{
+    border:1px solid lightgray;
+    border-radius:8px;
+    padding:10px;
+    
+}
+.price-card h2{
+    font-size: 50px;
+    padding-left: 20px;
+    
+}
+.price-card p{
+    margin-bottom: 10px;
+}
+.secure-ul{
+    padding-left: 20px;
+    margin-top: 10px;
+    list-style: none;
+    
+    
+}
+.secure-ul li{
+   margin-bottom: 10px;
+   
+}
+.bullet{
+    color: blue;
+}
+.std-btn{
+    background-color: white;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid blue;
+    cursor: pointer;
+    color:blue;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+    margin-bottom: 20px;
+    
 }
